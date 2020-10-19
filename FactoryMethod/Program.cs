@@ -6,7 +6,24 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Creator creator;
+            Console.WriteLine("Enter number");
+            int n = int.Parse(Console.ReadLine());
+            if (n == 1)
+            {
+                creator = new ConcreteCreator1();
+            }
+            else if (n == 2)
+            {
+                creator = new ConcreteCreator2();
+            }
+            else
+            {
+                creator = new ConcreteCreator3();
+            }
+
+            IProduct product = creator.Action();
+            Console.WriteLine(product.Action());
         }
     }
 }

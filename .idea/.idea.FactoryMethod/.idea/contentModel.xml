@@ -8,6 +8,7 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="FactoryMethod" t="Include">
         <e p="Creator.cs" t="Include" />
+        <e p="Date.cs" t="Include" />
         <e p="IProduct.cs" t="Include" />
         <e p="Program.cs" t="Include" />
       </e>

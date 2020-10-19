@@ -2,6 +2,6 @@
 {
     public interface IProduct
     {
-        string Operation();
+        string Action();
     }
 }
