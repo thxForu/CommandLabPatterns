@@ -6,23 +6,26 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            Creator creator;
+            string deskUkr = "Слава Україні";
+            string deskEng = "Make America grate again";
+            string date = "20.10.2020";
+            string link = "www.google.com";
+
+            Action action;
+            string f = "asd";
             Console.WriteLine("Enter number");
             int n = int.Parse(Console.ReadLine());
             if (n == 1)
             {
-                creator = new ConcreteCreator1();
-            }
-            else if (n == 2)
-            {
-                creator = new ConcreteCreator2();
+                action = new ConcreteCreator1(link,date,deskEng);
             }
             else
             {
-                creator = new ConcreteCreator3();
+                action = new ConcreteCreator2(link,date,deskUkr);
             }
 
-            IProduct product = creator.Action();
+
+            IProduct product = action.PrintAction();
             Console.WriteLine(product.Action());
         }
     }

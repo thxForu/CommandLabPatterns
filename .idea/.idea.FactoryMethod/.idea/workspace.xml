@@ -10,16 +10,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/FactoryMethod/Action.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/IProduct.cs" />
         <option value="$PROJECT_DIR$/Creator.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/FactoryMethod/Date.cs" />
-        <option value="$PROJECT_DIR$/FactoryMethod/Program.cs" />
         <option value="$PROJECT_DIR$/FactoryMethod/Creator.cs" />
         <option value="$PROJECT_DIR$/FactoryMethod/IProduct.cs" />
+        <option value="$PROJECT_DIR$/FactoryMethod/Program.cs" />
+        <option value="$PROJECT_DIR$/FactoryMethod/Action.cs" />
+        <option value="$PROJECT_DIR$/FactoryMethod/Date.cs" />
       </list>
     </option>
   </component>
@@ -60,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603126906762</updated>
-      <workItem from="1603126913147" duration="4511000" />
+      <workItem from="1603126913147" duration="7788000" />
     </task>
     <servers />
   </component>
@@ -71,5 +75,27 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1921" height="192" key="GridCell.Tab.0.bottom" timestamp="1603135821024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603135821024" />
+    <state width="1921" height="192" key="GridCell.Tab.0.center" timestamp="1603135821024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="192" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603135821024" />
+    <state width="1921" height="192" key="GridCell.Tab.0.left" timestamp="1603135821024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="192" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603135821024" />
+    <state width="1921" height="192" key="GridCell.Tab.0.right" timestamp="1603135821024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="192" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603135821024" />
+    <state x="733" y="236" key="RiderGenerateDialog" timestamp="1603132298291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="733" y="236" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603132298291" />
   </component>
 </project>
