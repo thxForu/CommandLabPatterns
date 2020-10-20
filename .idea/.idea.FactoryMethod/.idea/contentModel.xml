@@ -15,8 +15,16 @@
       <e p="FactoryMethod.csproj" t="IncludeRecursive" />
       <e p="FactoryMethod.sln" t="IncludeFlat" />
       <e p="JS" t="Include">
+        <e p=".babelrc" t="Include" />
         <e p="Fabric.js" t="Include" />
         <e p="index.js" t="Include" />
+        <e p="node_modules\@babel\cli" t="IncludeRecursive" />
+        <e p="node_modules\@babel\core" t="IncludeRecursive" />
+        <e p="node_modules\@babel\node" t="IncludeRecursive" />
+        <e p="node_modules\@babel\plugin-proposal-class-properties" t="IncludeRecursive" />
+        <e p="node_modules\@babel\preset-env" t="IncludeRecursive" />
+        <e p="node_modules\babel-node" t="IncludeRecursive" />
+        <e p="node_modules\nodemon" t="IncludeRecursive" />
         <e p="package-lock.json" t="Include" />
         <e p="package.json" t="Include" />
       </e>
