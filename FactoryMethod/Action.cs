@@ -1,41 +1,45 @@
-﻿namespace FactoryMethod
+﻿using System;
+
+namespace FactoryMethod
 {
     abstract class Action
     {
-        private string LinkAction;
-        private string dateAction;
-        private string descriptionAction;
-        
-        public Action (string link, string date, string description)
-        {
-            dateAction = date;
-            descriptionAction = description;
-            LinkAction = link;
+        private string actionDate;
+        private string actionType;
 
+        public Action(string date, string action)
+        {
+            actionDate = date;
+            actionType = action;
         }
-        
-        public abstract IProduct PrintAction();
+
+        public IProduct Print()
+        {
+            Console.WriteLine("\nDate: {0}\nAction: {1}",actionDate,actionType);
+            return null;
+        }
+        public abstract IProduct GetDescription();
     }
 
     class ConcreteCreator1 : Action
     {
-
-        public ConcreteCreator1(string link, string date, string description) : base(link, date, description)
+        public override IProduct GetDescription()
         {
+            return new UkraineDescriptions();
         }
-        public override IProduct PrintAction()
+        public ConcreteCreator1(string date, string action) : base(date, action)
         {
-            return new Date();
         }
     }
     class ConcreteCreator2 : Action
     {
-        public ConcreteCreator2(string link, string date, string description) : base(link, date, description)
+        public override IProduct GetDescription()
         {
+            return new EnglishDescriptions();
         }
-        public override IProduct PrintAction()
+
+        public ConcreteCreator2(string date, string action) : base(date, action)
         {
-            return new Description();
         }
     }
 }

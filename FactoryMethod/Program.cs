@@ -6,27 +6,25 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            string deskUkr = "Слава Україні";
-            string deskEng = "Make America grate again";
-            string date = "20.10.2020";
-            string link = "www.google.com";
-
             Action action;
-            string f = "asd";
-            Console.WriteLine("Enter number");
+            string actionType = "Death";
+            string date = "22.11.1963";
+            Console.WriteLine("Enter what leng u want");
             int n = int.Parse(Console.ReadLine());
             if (n == 1)
             {
-                action = new ConcreteCreator1(link,date,deskEng);
+                action = new ConcreteCreator1(date,actionType);
             }
             else
             {
-                action = new ConcreteCreator2(link,date,deskUkr);
+                action = new ConcreteCreator2(date,actionType);
             }
-
-
-            IProduct product = action.PrintAction();
-            Console.WriteLine(product.Action());
+            
+            IProduct productPrint = action.Print();
+            IProduct product = action.GetDescription();
+            Console.WriteLine(product.GetDescriptions());
+            Console.WriteLine(productPrint);
         }
+
     }
 }

@@ -8,12 +8,18 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="FactoryMethod" t="Include">
         <e p="Action.cs" t="Include" />
-        <e p="Date.cs" t="Include" />
+        <e p="Descriptions.cs" t="Include" />
         <e p="IProduct.cs" t="Include" />
         <e p="Program.cs" t="Include" />
       </e>
       <e p="FactoryMethod.csproj" t="IncludeRecursive" />
       <e p="FactoryMethod.sln" t="IncludeFlat" />
+      <e p="JS" t="Include">
+        <e p="Fabric.js" t="Include" />
+        <e p="index.js" t="Include" />
+        <e p="package-lock.json" t="Include" />
+        <e p="package.json" t="Include" />
+      </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp3.1" t="Include">

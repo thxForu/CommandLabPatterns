@@ -4,11 +4,18 @@
     <projectFile>FactoryMethod.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb8af0e-0d1c-4dc2-81be-107f40fba21e" name="Default Changelist" comment="" />
+    <list default="true" id="cbb8af0e-0d1c-4dc2-81be-107f40fba21e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FactoryMethod/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FactoryMethod/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FactoryMethod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FactoryMethod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactoryMethod/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/FactoryMethod/Action.cs" root0="FORCE_HIGHLIGHTING" />
@@ -21,9 +28,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/FactoryMethod/Creator.cs" />
         <option value="$PROJECT_DIR$/FactoryMethod/IProduct.cs" />
-        <option value="$PROJECT_DIR$/FactoryMethod/Program.cs" />
         <option value="$PROJECT_DIR$/FactoryMethod/Action.cs" />
         <option value="$PROJECT_DIR$/FactoryMethod/Date.cs" />
+        <option value="$PROJECT_DIR$/FactoryMethod/Program.cs" />
       </list>
     </option>
   </component>
@@ -65,13 +72,14 @@
       <option name="presentableId" value="Default" />
       <updated>1603126906762</updated>
       <workItem from="1603126913147" duration="7788000" />
+      <workItem from="1603205594865" duration="1091000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -93,9 +101,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="192" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603135821024" />
+    <state x="2472" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1603205844867">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="252" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603205844867" />
     <state x="733" y="236" key="RiderGenerateDialog" timestamp="1603132298291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="733" y="236" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603132298291" />
+    <state x="2012" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1603213219301">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603213219301" />
   </component>
 </project>

@@ -2,6 +2,6 @@
 {
     public interface IProduct
     {
-        string Action(string s = "empty");
+        string GetDescriptions();
     }
 }
