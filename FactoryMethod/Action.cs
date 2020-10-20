@@ -7,10 +7,10 @@ namespace FactoryMethod
         private string actionDate;
         private string actionLink;
 
-        public Action(string date, string actionLink)
+        public Action(string date, string link)
         {
             actionDate = date;
-            this.actionLink = actionLink;
+            actionLink = link;
         }
 
         public IProduct Print()
