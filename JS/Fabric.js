@@ -6,8 +6,14 @@ class EventDate {
 }
   
 class Description {
-    constructor () {
-        this.value = 'Ukrainian local elections '
+    constructor (lang) {
+        if(lang == 'en'){
+            this.value = 'Ukrainian local elections '
+        }
+        else if(lang == 'ua'){
+            this.value = 'Місцеві вибори в Україні'
+        }
+        else this.value = 'Language is not supported'
     }
 }
   
@@ -19,12 +25,12 @@ class URL {
 
 
 class Event {
-    create(datatype) {
+    create(datatype, lang) {
         let event
         if (datatype === 'Event date') {
             event = new EventDate()
         } else if (datatype === 'Description') {
-            event = new Description()
+            event = new Description(lang)
         } else if (datatype === 'URL') {
             event = new URL()
         } else console.log('Incorrect datatype')
