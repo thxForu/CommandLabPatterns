@@ -10,6 +10,7 @@ namespace FactoryMethod
             string actionType = "Death";
             string date = "22.11.1963";
             Console.WriteLine("Enter what leng u want");
+            Console.WriteLine("1. Ukraine description\n2. English description");
             int n = int.Parse(Console.ReadLine());
             if (n == 1)
             {
@@ -25,6 +26,5 @@ namespace FactoryMethod
             Console.WriteLine(product.GetDescriptions());
             Console.WriteLine(productPrint);
         }
-
     }
 }

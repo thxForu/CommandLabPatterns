@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbb8af0e-0d1c-4dc2-81be-107f40fba21e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FactoryMethod/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FactoryMethod/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FactoryMethod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FactoryMethod/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FactoryMethod/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +26,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/FactoryMethod/Creator.cs" />
         <option value="$PROJECT_DIR$/FactoryMethod/IProduct.cs" />
-        <option value="$PROJECT_DIR$/FactoryMethod/Action.cs" />
         <option value="$PROJECT_DIR$/FactoryMethod/Date.cs" />
+        <option value="$PROJECT_DIR$/FactoryMethod/Action.cs" />
         <option value="$PROJECT_DIR$/FactoryMethod/Program.cs" />
       </list>
     </option>
@@ -72,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603126906762</updated>
       <workItem from="1603126913147" duration="7788000" />
-      <workItem from="1603205594865" duration="1091000" />
+      <workItem from="1603205594865" duration="1453000" />
     </task>
     <servers />
   </component>
@@ -81,6 +79,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
